@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>my form
+
+        </title>
+    </head>
+    <body>
+        <h3> Registration login form</h3>
+        <form action="login.html">
+            <input type="text" placeholder="username">
+            <br>
+            <br>
+            <input type="password" placeholder="password">
+            <br>
+             <br>
+            <input type="Email ID" placeholder="Email id">
+            <br>
+            <h5> select your course</h5>
+            <label for="101">
+                <input type="radio" value="BA" name="Course" id="101">BCA
+            </label>
+            <br>
+            <br>
+            <label for="102">
+                <input type="radio" value="BBA" name="Course" id="102">BBA
+            </label>
+            <br>
+            <br>
+            <h5> select your subject</h5>
+            <label for="c">
+                <input type="checkbox" value="c" name="Subject" id="101">c           
+            </label>
+            <label for="Javascript">
+                <input type="checkbox" value="Javascript" name="Subject" id="105">Javascript           
+            </label>
+            <label for="c++">
+                <input type="checkbox" value="c++" name="Subject" id="102">c++           
+            </label>
+            <label for="java">
+                <input type="checkbox" value="java" name="Subject" id="103">java          
+            </label>
+            <label for="python">
+                <input type="checkbox" value="python" name="Subject" id="104">python            
+            </label>
+            <br>
+            <br>
+            <h5>Select your college</h5>
+            <select name="college">
+                <option value="MDDM"> MDDM college</option>
+               <option value="LS">LS COLLEGE</option>
+               <option value="NS"> NS college</option>
+               <option value="RDS"> RDS college</option>
+            </select>
+            <br>
+            <br>
+            <textarea name="feedback" id="101" placeholder ="please give your valuable feedback here"rows="4">please give your valuable feedback here
+
+            </textarea>
+            <br>
+            <br>
+            <input type="submit" value="submit"style=" background-color: green;">  
+        </form>
+
+    </body>
+</html>
